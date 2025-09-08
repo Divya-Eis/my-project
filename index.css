@@ -1,0 +1,121 @@
+ *{
+padding: 0;
+margin: 0;
+ }
+ .fashion{
+     background-image: url("https://t4.ftcdn.net/jpg/06/34/09/69/360_F_634096945_nT013AXOaokOmXXU0mRlfSLmnSbbmZXw.jpg");
+    background-size: cover;
+    height: 100vh;
+ }
+ .navbar{
+   height: 100px;
+   width: 100%;
+   background: rgba(102, 102, 99, 0.4);
+
+ }
+
+.logo{
+   width: 98px;
+   height: auto;
+   padding: 6px 10px ;
+}
+.navbar ul{
+   float: right;
+   margin-right: 20px;
+}
+.navbar ul li{
+   list-style: none;
+   margin: 0 8px;
+   display: inline-block;
+   line-height: 80px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 6px 20px;
+   font-size: 35px;
+   font-family:'Roboto', sans-serif;
+   transition: .5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background: #b87b58;
+   border-radius: 2px;
+}
+.fashion .middle{
+   position: absolute;
+   top: 50%;
+   left:50% ;
+   transform: translate(-50%, -50%);
+   font-family: sans-serif;
+   user-select: none;
+}
+.middle{
+   color:black;
+   font-size: 30px;
+   font-weight: bold;
+   width: 885px;
+   text-align:center ;
+   margin-top: 10px;
+}
+.middle .buttons{
+   margin: 35px 28px;
+}
+.buttons button{
+   height: 60px;
+   width: 190px;
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+   background-color: rgb(197, 120, 49);
+   border: 1px solid #e05f14;
+   outline:none;
+   cursor: pointer;
+   border-radius: 30px;
+}
+.buttons button:hover {
+  background: #df9f77;
+}
+.footer {
+  background: #222; 
+  color: white;      
+  padding: 40px 20px;
+  text-align: right;
+  margin-top: 0px;
+
+}
+
+.footer span {
+  color: #f39c12; 
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 30px;
+}
+
+.footer .social-links {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.footer .social-links a {
+  display: inline-block;
+  margin: 0 8px;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #f39c12; 
+}
+.footer-contact {
+  margin: 15px 0;
+  text-align: left;
+  margin-top: -95px;
+  display: flex; 
+  flex-direction: column; 
+  gap: 5px;
+}

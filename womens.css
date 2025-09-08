@@ -1,0 +1,77 @@
+ *{
+padding: 0;
+margin: 0;
+ }
+
+ .navbar{
+   height: 100px;
+   width: 100%;
+   background: rgba(102, 102, 99, 0.4);
+
+ }
+
+.logo{
+   width: 98px;
+   height: auto;
+   padding: 6px 10px ;
+}
+.navbar ul{
+   float: right;
+   margin-right: 20px;
+}
+.navbar ul li{
+   list-style: none;
+   margin: 0 8px;
+   display: inline-block;
+   line-height: 80px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 6px 20px;
+   font-size: 35px;
+   font-family:'Roboto', sans-serif;
+   transition: .5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background: #b87b58;
+   border-radius: 2px;
+}
+.image {
+  display: flex;
+   justify-content: flex-start;   
+  align-items: center;       
+  height: 80vh;          
+  background: url("https://www.vaanisilks.com/images/b5.jpg") no-repeat center center/cover;
+   padding-left: 40px;
+}
+.image-content {
+  text-align: center;
+}
+
+ .image h1 {
+  color: rgb(225, 230, 234);
+  font-size: 100px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+ }
+.shop-btn {
+  background: rgb(107, 123, 184);
+  color: white;
+  border: none;
+  padding: 21px 64px;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: background 0.3s;
+}
+
+.shop-button:hover {
+  background: #444;
+}

@@ -1,0 +1,199 @@
+ *{
+padding: 0;
+margin: 0;
+ }
+
+ .navbar{
+   height: 100px;
+   width: 100%;
+   background: rgba(102, 102, 99, 0.4);
+
+ }
+
+.logo{
+   width: 98px;
+   height: auto;
+   padding: 6px 10px ;
+}
+.navbar ul{
+   float: right;
+   margin-right: 20px;
+}
+.navbar ul li{
+   list-style: none;
+   margin: 0 8px;
+   display: inline-block;
+   line-height: 80px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 6px 20px;
+   font-size: 35px;
+   font-family:'Roboto', sans-serif;
+   transition: .5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background: #b87b58;
+   border-radius: 2px;
+}
+
+.banner {
+  display: flex;
+   justify-content: flex-start;   
+  align-items: center;       
+  height: 80vh;          
+  background: url("https://img.freepik.com/premium-photo/t-shirts-neutral-colors-black-hanger-against-gray-wall_176873-9828.jpg") no-repeat center center/cover;
+   padding-left: 40px;
+}
+.banner-content {
+  text-align: center;
+}
+ .banner h1 {
+  color: rgb(13, 69, 104);
+  font-size: 100px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.shop-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 21px 64px;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: background 0.3s;
+}
+
+.shop-button:hover {
+  background: #444;
+}
+
+
+.title{
+    text-align: center;
+    margin:30px 0;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(200, 105, 28);
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 45px;
+  padding: 20px 50px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+
+.card-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-info {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.product-info  h3{
+  font-size: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.product-info  p{
+  font-size: 36px;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #f39c12;
+}
+.brands{
+  text-align: center;
+    margin:30px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(28, 95, 184);
+}
+.container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+       justify-content: center;
+       margin-top: 27px;
+    }
+
+ .block {
+      background: white;
+      border: 2px solid #ddd;
+      border-radius: 30px;
+      width: 400px;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: 0.3s;
+    }
+.block img {
+      max-width: 80%;
+      max-height: 80%;
+      object-fit: contain;
+    }
+.footer {
+  background: #222; 
+  color: white;      
+  padding: 40px 20px;
+  text-align: right;
+  margin-top: 250px;
+
+}
+
+.footer span {
+  color: #f39c12; 
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 30px;
+}
+
+.footer .social-links {
+  margin-top: 10px;
+}
+
+.footer .social-links a {
+  display: inline-block;
+  margin: 0 8px;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #f39c12; 
+}
+.footer-contact {
+  margin: 15px 0;
+  text-align: left;
+  margin-top: -95px;
+  display: flex; 
+  flex-direction: column; 
+  gap: 5px;
+}
