@@ -1,77 +1,239 @@
- *{
-padding: 0;
-margin: 0;
+ * {
+   padding: 0;
+   margin: 0;
  }
 
- .navbar{
+ .navbar {
    height: 100px;
    width: 100%;
    background: rgba(102, 102, 99, 0.4);
 
  }
 
-.logo{
+ .logo {
    width: 98px;
    height: auto;
-   padding: 6px 10px ;
-}
-.navbar ul{
+   padding: 6px 10px;
+ }
+
+ .navbar ul {
    float: right;
    margin-right: 20px;
-}
-.navbar ul li{
+ }
+
+ .navbar ul li {
    list-style: none;
    margin: 0 8px;
    display: inline-block;
    line-height: 80px;
-}
-.navbar ul li a{
+ }
+
+ .navbar ul li a {
    text-decoration: none;
    color: black;
    padding: 6px 20px;
    font-size: 35px;
-   font-family:'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
    transition: .5s;
-}
-.navbar ul li a.active,
-.navbar ul li a:hover{
+ }
+
+ .navbar ul li a.active,
+ .navbar ul li a:hover {
    background: #b87b58;
    border-radius: 2px;
-}
-.image {
-  display: flex;
-   justify-content: flex-start;   
-  align-items: center;       
-  height: 80vh;          
-  background: url("https://www.vaanisilks.com/images/b5.jpg") no-repeat center center/cover;
-   padding-left: 40px;
-}
-.image-content {
-  text-align: center;
-}
-
- .image h1 {
-  color: rgb(225, 230, 234);
-  font-size: 100px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-  font-weight: bold;
-  margin: 0;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-left: 20px;
  }
-.shop-btn {
-  background: rgb(107, 123, 184);
-  color: white;
-  border: none;
-  padding: 21px 64px;
-  font-size: 26px;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 40px;
-  transition: background 0.3s;
-}
 
-.shop-button:hover {
-  background: #444;
-}
+ .image {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 90vh;
+   background: url("https://www.vaanisilks.com/images/b5.jpg") no-repeat center center/cover;
+   padding-right: 80px;
+ }
+
+ .image-content {
+   text-align: center;
+ }
+
+ .image-content p {
+   font-size: 50px;
+   font-family: 'Georgia', sans-serif;
+   color: #f1f1f1;
+   margin-bottom: 25px;
+ }
+
+ .image-content h1 {
+   color: rgb(225, 230, 234);
+   font-size: 100px;
+   font-family: 'Georgia', serif;
+   font-weight: bold;
+   margin: 0;
+   padding: 10px 20px;
+   border-radius: 5px;
+ }
+
+ .shop-btn {
+   background: rgb(188, 113, 56);
+   color: white;
+   border: none;
+   padding: 15px 58px;
+   font-size: 30px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 40px;
+   transition: background 0.3s;
+ }
+
+ .shop-btn:hover {
+   background: #c88f5e;
+ }
+
+ .titles {
+   text-align: center;
+   margin: 30px 0;
+   font-size: 65px;
+   font-weight: bold;
+   color: rgb(56 31 63);
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ .gallery-container {
+   background: url("https://wallpapers.com/images/featured/plain-beige-background-dg9yo5ndprwjfwzq.jpg");
+   padding: 50px 0;
+ }
+
+ .gallery {
+
+   width: 65%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 44px;
+ }
+
+ .cart {
+   background: white;
+   border-radius: 12px;
+   overflow: hidden;
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+   transform: translateY(-10px);
+ }
+
+ .cart-img {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   display: block;
+ }
+
+ .details {
+   padding: 12px;
+   background: #bc7138;
+ }
+
+ .details .item-title {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 34px;
+   margin: 10px 0 5px 0;
+   color: black;
+ }
+
+ .details .item-price {
+   text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: #141313;
+ }
+
+ .about-us{
+   padding: 80px 0;
+   color: black;
+ }
+
+ .contain {
+   display: flex;
+   margin: 0 auto;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 15px;
+   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+ }
+
+ .about-content {
+   flex: 1;
+   padding: 40px;
+ }
+
+ .about-content h2 {
+   font-size: 50px;
+   margin-bottom: 25px;
+   font-family: 'Roboto', sans-serif;
+ }
+
+ .about-content p {
+   font-size: 38px;
+   color: #1c1a1a;
+   line-height: 1.8;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .about-content span {
+   color: #bc7138;
+   font-weight: bold;
+ }
+
+ .about-image {
+   flex: 1;
+ }
+
+ .about-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .footer {
+   background: #222;
+   color: white;
+   padding: 40px 20px;
+   text-align: right;
+
+ }
+
+ .footer span {
+   color: #f39c12;
+   font-weight: bold;
+ }
+
+ .footer p {
+   margin: 8px 0;
+   font-size: 30px;
+ }
+
+ .footer .social-links {
+   margin-top: 10px;
+   font-size: 20px;
+ }
+
+ .footer .social-links a {
+   display: inline-block;
+   margin: 0 8px;
+   color: white;
+   font-size: 20px;
+   transition: 0.3s;
+ }
+
+ .footer .social-links a:hover {
+   color: #f39c12;
+ }
+
+ .footer-contact {
+   margin: 15px 0;
+   text-align: left;
+   margin-top: -95px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+ }

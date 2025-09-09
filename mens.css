@@ -119,6 +119,7 @@ margin: 0;
   font-size: 36px;
   font-family: 'Roboto', Arial, sans-serif;
   color: #f39c12;
+  font-weight:bold;
 }
 .brands{
   text-align: center;
@@ -160,8 +161,6 @@ margin: 0;
   color: white;      
   padding: 40px 20px;
   text-align: right;
-  margin-top: 250px;
-
 }
 
 .footer span {
