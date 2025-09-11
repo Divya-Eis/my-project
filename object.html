@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Objects in objects</h2>
+    <script>
+        let college = {
+            collegename: "Pragati",
+            group: "Btech",
+            details:{
+                rollnumber : "4253",
+                course: "CSE",
+                city: "Tanuku",
+                state: "Andhra pradesh"
+            },
+            yearofPass : "2023"
+        };
+
+        console.log("student rollnumber:", college.details.rollnumber);
+        console.log("student joined group:", college.group);
+        console.log("student yearofPass:", college.yearofPass);
+    </script>
+    
+</body>
+</html>
