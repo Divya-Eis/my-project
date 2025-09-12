@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>While Loop</h2>
+    <script>
+        let someArray = ["Divya", "Ammu", "Siri", "Jyothi"];
+        let  notFound = true;
+        while (notFound && someArray.length > 0)
+    {
+        if (someArray[0] === "Siri") {
+            console.log("Found her!");
+            notFound = false;
+        } else{
+            someArray.shift();
+        }
+    }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SWITCH STATEMENT</h1>
+    <p id="output"></p> 
+
+    <script>
+        let fruit = 3;
+        let fruitName;
+
+        switch(fruit){
+            case 1:
+                fruitName = "Grapes";
+                break;
+            case 2:
+                fruitName = "Mango";
+                break;
+            case 3:
+                fruitName = "Apple";
+                break;
+            case 4:
+                fruitName = "Orange";
+                break;
+            default:
+                fruitName = "Invalid";      
+        }
+
+        console.log(fruitName);
+        document.getElementById("output").innerText = "Selected Fruit: " + fruitName; 
+    </script>
+</body>
+</html>
