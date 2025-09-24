@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>String as a Parameter</h1>  
+  <script>
+    function vowel_count(str1)
+    {
+        var vowel_list = 'aeiouAEIOU';
+
+        var vcount = 0;
+        for(var x = 0; x < str1.length ; x++)
+    {
+        if (vowel_list.indexOf(str1[x]) !== -1)
+    {
+        vcount += 1;
+    }
+    }
+    return vcount;
+    }
+    console.log(vowel_count("Board is black in the classroom"));
+  </script>
+</body>
+</html>
