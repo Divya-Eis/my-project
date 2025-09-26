@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var lastday = function(y,m){
+        return new Date(y, m+1, 0).getDate();
+    }
+    document.write(lastday(2020, 0) + "<br>");
+    document.write(lastday(2020, 1) + "<br>");
+    document.write(lastday(2020, 11));
+   </script> 
+</body>
+</html>

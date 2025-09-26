@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    function calculate_age(dob){
+        var diff_ms = Date.now() - dob.getTime();
+        var age_dt = new Date(diff_ms);
+    
+        return Math.abs(age_dt.getUTCFullYear() - 1980);
+    }
+    document.write(calculate_age(new Date (1995, 4, 17)));
+    document.write(calculate_age(new Date(2002, 5, 22)))
+   </script> 
+</body>
+</html>
